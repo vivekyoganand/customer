@@ -1,0 +1,345 @@
+Introduction.
+ 
+Hello,
+ 
+My Name is Dr Vivek Yoganand and I will be working with you on this case as.
+ 
+You have mentioned that you are observing $ISSUE. We can see that you have already uploaded $LOGS.
+ 
+Meanwhile, we would like to get the answers of the following questions.
+ 
+$Questions
+ 
+From the account details, We can see you are in the $TIMEZONE and you contact details are as $Number
+ 
+Please confirm whether this is correct.
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+=======================================
+ 
+Customer asking for
+Is there a way to simply drop all the old logs in fluentd and only let it forward the current logs to elasticsearch ?
+ 
+.
+ 
+I see that you're requesting a call as soon as possible. I have your number as +01 999-999-9999 ext. 123. I will call you at that number in about 10 minutes. Let me know if there's a different number I should call, instead
+ 
+ 
+---------------------------------------
+ 
+We can deny call if no required.
+ 
+I see that you're requesting a call as soon as possible. Looking at the data and description in the case, though, I don't think we need to have a call at this time. I have started investigating the root cause for the reboot and will keep you informed of my progress.
+ 
+============================================================================
+Accpunt Flags:-
+ 
+https://source.redhat.com/groups/public/support-delivery/global_support_delivery_wiki/account_flags_case_flags_and_case_labels_in_the_case_management_system
+ 
+--------------------------------------------------------------------------------------------------
+ 
+Provide file more then 250GB.
+ 
+https://access.redhat.com/solutions/2112
+ 
+ 
+-------------------------------------------
+Beaker:-
+ 
+https://beaker.engineering.redhat.com/
+ 
+https://source.redhat.com/groups/public/lab-support-enterprise-cloud-products/cee_lab_support_enterprise_cloud_products_wiki/cee_ops_openstack_admin_guide
+ 
+ 
+NCP (Negotiated entitlement process)
+We are collaborating with senior resources, but it may take a couple of hours to dig through the data. We are setting our next response time to 2 hours to allow time for this investigation.
+Let us know if you have any concerns about this response time.
+ 
+SBR-Groups.
+ 
+https://source.redhat.com/groups/public/support-delivery/global_support_delivery_wiki/global_sbr_domain_roster
+-----------------------------------------------------------------------
+ 
+rhn-support-aharchin - Res hat university.
+ 
+----------------------------------------------
+Support shell.
+ 
+https://chat.google.com/preview/room/AAAASXpnvbI
+-----------------------------------------------------------
+https://github.com/zgutterm/DO180-apps.git
+Support shell command to download attachments from the case.
+ 
+yank casenumber
+ 
+yank -h (To check more optios through -h arguments)
+ 
+https://source.redhat.com/groups/public/supportshell/supportshell_wiki/accessing_attachments_on_supportshell_yank_ng
+ 
+ 
+https://docs.google.com/document/d/1uN9hGlkHTAgsKTq2x3sSYQjzoc44DL6WyegwXVxoHSs/preview?skip_itp2_check=true&pli=1#heading=h.g0c2yq8ewi
+ 
+ 
+https://source.redhat.com/groups/public/supportshell/supportshell_wiki/list_of_analysis_tools
+=====================================================
+ 
+Github account -
+Quay.io -
+Redhat@#123
+ 
+rhn-support-aharchin
+ 
+ 
+ 
+ 
+61e3d27ebb984e9aad46
+ 
+---------------------------
+ 
+Need to check - internal-enablement@redhat.com
+ 
+ 
+===============================================================================================================
+ 
+FTS Case update-
+ 
+Problem Description:
+ 
+        What - is the problem
+ 
+        Where - where does the problem happen <could be geography or component>
+ 
+        When - when does the problem occur
+ 
+        Impact - what is the current impact
+ 
+ 
+Actions Performed:
+ 
+Please confirm actions performed on the case so far.
+ 
+Next Steps:
+ 
+Actions needing to be performed by customer and Red Hat
+ 
+Customer Contact Information:
+ 
+Customer name and contact information, allows customer to check our record
+ 
+Additional information:
+ 
+Any additional Information
+ 
+==========================================================================
+ 
+replace data
+ 
+sed -e 's/string/stringb/g' filename
+ 
+cp filename{,.bak}
+ 
+ 
+========================================================================
+ 
+secret access key - gU6jJHSjEYc58Q1L7/eQE3Dp/V9LiacWwmIluQkQ
+ 
+Access key ID - AKIAWZTMXBL5LWVFXNHY
+ 
+================================================================
+ 
+Please be connected on IRC. You should see about 38+ members in #sbr-shift-pune
+irc-2.devel.redhat.com/6667
+irc.lab.bos.redhat.com/6667
+On your HexChat, HexChat tab on the top left, Network List -> In Networks select RedHat -> Edit -> Add (on the top right) and add these servers on different lines
+- Select using one, Close -> Connect
+ 
+-------------------------------------------------------
+ 
+***********************ASKING SOSREPORT**********************
+ 
+Hello,
+ 
+Welcome to Red Hat Technical Support.
+ 
+My name is Dr Vivek Yoganand and I will be assisting you with this service request during Indian Business hour.
+ 
+I have gone through case description and understand that
+ 
+To make further progress on the case, can you please collect the sosreport from server and upload to the case. You may refer the below article to collect the sosreport.
+ 
+https://access.redhat.com/solutions/3592
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+ 
+ 
+I found the following bug[1] related to the same:
+ 
+        ===========================================================
+        +[1] https://bugzilla.redhat.com/show_bug.cgi?id=1719106
+        ===========================================================
+ 
+The bug was fixed in the following errata[2].
+ 
+        ===========================================================
+        +[2] https://access.redhat.com/errata/RHBA-2019:2922
+        ===========================================================
+ 
+Fundamentally this was a request to backport an RFE, and it was not approved from the Product Management. So the solution of this issue is to migrate from OCP 3.x to OCP v4.2 or later versions. As of now, I can see this is the only supported solution for monitoring volume metrics for NFS backend storage. I hope it helps.
+ 
+Let me know your thoughts on the same. I will be happy to assist you.
+ 
+ 
+*******************REDUCE SEVERITY******************************
+ 
+We understand that this issue is urgent and we are treating it with a high priority.
+However, based on the description of the problem it doesn't appear to meet the criteria for a Severity-1 issue
+as defined in our SLA: https://access.redhat.com/support/policy/severity/.
+ 
+Although we are setting the case to severity 3 (Medium) to more accurately reflect the current status,
+we will continue to provide you with updates and analysis in a timely manner.
+ 
+Let us know if you feel this is inaccurate in any way and we will adjust accordingly as well.
+Any information you can provide for us with respect to the impact to your business will help us to assist you in the most expedient way.
+ 
+*******************CASE CLOSURE*********************************
+ 
+Thanks for your the confirmation.
+ 
+With your consent, I'm archiving this service request.
+ 
+You may receive a email request to fill out a survey on your experience with this service request. I encourage you to fill this survey out, as your feedback is very important to Red Hat and it helps us to determine what we are doing correctly as well as highlight what we can do to assist you better.
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+ 
+*********************ASKING UPDATE IF EVERYTHING DONE*********************************
+ 
+Hello,
+ 
+Could you please let us know if there is anything else with which we could assist you further?
+     
+Please feel free to get back to us/update this service request in case of any queries.
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+ 
+ 
+***************************CUSTOMER NOT RESPONDIG**********************************
+ 
+ 
+Hi,
+     
+Since we did not get any further updates from your end, we are archiving this case.
+     
+You may receive a survey on your support experience with Red Hat, and your feedback is highly appreciable.
+     
+If the issue still persists and you need any further assistance from us, feel free to re-open this case.
+ 
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+ 
+*********************archiving CASE WITHOUT CONFIRMATION***********************************
+ 
+ 
+Hello,
+     
+Since your concern has been addressed, I am archiving this case. If you still require any assistance feel free to re-open this case.
+     
+Upon archiving this case, you might receive an email asking for your feedback. We would appreciate you taking a few minutes and providing your valuable feedback.
+     
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+ 
+**********************WAITING FOR CU UPDATE**********************************
+ 
+Hello,
+ 
+Since there are no updates from your side, we thought of giving you a gentle reminder.
+ 
+Requesting you to please provide an update on the case.
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+***************************24*7 FLAG***************************************
+ 
+Hello,
+ 
+I can see you have raised this case as Severity-2, so this case is entitled for 24*7 support, please do let me know if you want this case to be worked upon 24*7 during weekend or not. If you want 24*7 support then please update us with contact person's name and number who will be available for this case and whom our team reach 24*7. In case of urgency you can reach us on numbers provided in below link:
+     
+https://access.redhat.com/support/contact/technicalSupport
+ 
+ 
+Regards,
+Dr Vivek Yoganand
+Red Hat
+ 
+*************************Bug/Feature introduce and update window time*************
+ 
+I have raised the feature request : https://bugzilla.redhat.com/show_bug.cgi?id=1367264
+ 
+As of now - I am setting a new time-window of 60 days,
+Will keep you posted as to how this progresses further.
+ 
+Do let me know if you have any further questions regarding the same.
+ 
+************************hotfix provided*****************
+Attached you've the hotfix that engineering built for you, as with any hotfix, the following legal fineprint applies:
+ 
+    Support by Red Hat for these packages is granted until 30-days beyond the date on which the fixes in question are released through official channels. We currently are anticipating their release in the next 6-8 weeks (which is subject to change), at which point you will have 30-days to update to those latest packages in order to continue receiving support on issues arising in environments with these packages installed. We suggest leaving this case open so we can keep you notified of the progress of these official fixes and the date when they are released.
+ 
+    These packages have been sanity checked by the maintainers of their respective components, and have been tested in-action by our Openstack engineering team, however they have not gone through the full quality-assurance cycle and regression test suite that normally accompanies official releases. We strongly suggest deploying these in a test environment first, or in production during downtime or an outage at least, and performing your own tests to confirm the functionality is as-expected. If you discover any problems at all, please notify us as soon as possible so we can have a closer look.
+ 
+*********************GOT A CALL**************************
+ 
+Thank you for contacting Red Hat Technical Support. You called in today wishing to speak with case owner. I apologize that engineer was unavailable to take your call.
+ 
+I have made a note on the case letting the engineer know that you would like to be called back at the earliest.
+ 
+If you have any questions feel free to put them into the case so that the engineer may be better prepared to answer them.
+ 
+Confirming your contact details:--
+ 
+Again, thank you for contacting Red Hat.
+ 
+ 
+ 
+********************************************* must gather *******************************
+ 
+* Creating oc adm must-gather with more details for specific use cases in Red Hat OpenShift Container Platform 4.x
+  https://access.redhat.com/solutions/5459251
+ 
+https://docs.openshift.com/container-platform/4.5/support/gathering-cluster-data.html
+ 
+**********************************************ask to close the case ****************************
+ 
+Hello,
+ 
+I hope you are doing good!
+ 
+It's been a while that we have heard from you. It would be great if you update us with the current status of your case.
+ 
+Kindly confirm, if your query has been answered? Were my last update steps helpful to answer your query?
+ 
+If your query is answered, will it be fine if I go ahead and close this case?
+ 
+However, if you need any assistance regarding this case or have any updates for us then please let us know.
+ 
+For any new query, we would request you to open a separate ticket and we would be more than happy to assist you.
+ 
+Awaiting your response.
